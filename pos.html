@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/bootstrap.css">
+    <link rel="stylesheet" href="style/style.css">
+    <!-- Bootstrap Font Icon CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
+
+
+</head>
+
+</head>
+
+
+<title>POS</title>
+</head>
+
+<body>
+    <!--Grid start-->
+    <div class="row  w-100 h-100 ">
+
+        <div class="text-right  text-center col-xl-1 col-md-1 align-items-center pt-3 sidenav">
+            <div class="  px-1  profile-pic-wrapper">
+                <img src="https://picsum.photos/id/3/50/50" class="rounded-circle img-thumbnail" alt="Mads Obel">
+            </div>
+            <p class="text-center fs-6 mt-1">كاشير 1</p>
+            <p class="bi bi-clock-history h4 text-success  pb-0 mb-0"> </p>
+            <p class="text-center fs-6 ">التحويلات الأخيرة</p>
+
+            <p class="bi bi-cash-coin h4 text-success  pb-0 mb-0"> </p>
+            <p class="text-center fs-6 ">إضافة مصاريف</p>
+
+            <p class="bi bi-pause-circle h4 text-success pb-0 mb-0"> </p>
+            <p class="text-center fs-6">المبيعات <span class="">المعلقة</span></p>
+
+            <p class="bi  bi-briefcase-fill h4 text-success pb-0 mb-0"> </p>
+            <p class="text-center fs-6 ">تفاصيل الوردية </p>
+
+            <p class="bi bi-grid  h4 text-success  pb-0 mb-0"> </p>
+            <p class="text-center fs-6  ">القائمة الرئيسية </p>
+
+            <p class="mt-3 bi bi-box-arrow-right h3 text-success text-danger pb-0 mb-0"> </p>
+            <p class="py-0 text-center fs-6 me-2 ">انهاء الوردية</p>
+        </div>
+        <!--products display-->
+
+        <div class="  bg-light px-0  col-xl-8 col-md-8 h-100 to-right ">
+
+            <div class="container row   ">
+                <div class=" col-8 row py-2  ">
+
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="ابحث عن منتج" aria-label="Search">
+                        <button class="btn btn-outline-success no-border bi-search" type="submit"></button>
+                    </form>
+
+                </div>
+                <div class=" col-4 d-flex  mx-auto my-auto ">
+                    <button class="btn icon-outline  no-border no-outline bi-upc-scan" type="submit"></button>
+                    <button class="btn icon-outline  no-border  no-outline bi-calculator" type="submit"></button>
+                    <button class="btn icon-outline  ms-1  no-border  no-outline bi bi-arrows-fullscreen" type="submit"></button>
+                    <button class=" text-center no-border  customer px-2 ">
+                        <small class="bi bi-plus-lg"></small>
+                        <small class="text-center"> منتج جديد </small>
+                    </button>
+                </div>
+                <hr class="mt-2">
+
+            </div>
+            <!--categories-->
+            <div class="products-screen  bg-light ">
+                <div class="to-right px-4 pt-2 w-75 d-flex">
+
+                    <select class=" w-25  no-border form-select bg-transparent form-select-sm"
+                        aria-label=".form-select-sm example">
+                        <option selected>جميع الأصناف</option>
+                        <option value="1">صنف 1 </option>
+                        <option value="2">صنف 2 </option>
+                        <option value="3">صنف 3</option>
+                    </select>
+                    <i class="bi bi-chevron-compact-left"></i>
+                    <select class="w-25 no-border bg-transparent form-select form-select-sm"
+                        aria-label=".form-select-sm example">
+                        <option selected>العلامة التجارية</option>
+                        <option value="1">علامة 1</option>
+                        <option value="2">علامة 2</option>
+                        <option value="3">علامة 3</option>
+                    </select>
+                </div>
+                <div class=" container row">
+
+                    <!--List of products-->
+                    <div class=" card me-3 my-3 px-0 border border-light h-100 col-2 col-md-2 ">
+                        <img class="profile-img-sm mx-auto rounded"
+                            src="https://via.placeholder.com/256/96b783/fff.png?text=1"
+                            style=" max-width: 100%; width:6rem;height:6rem;" />
+
+                        <div class="card-footer bg-transparent mx-0 px-0 text-center">منتج 1</div>
+                    </div>
+                    <div class=" card me-3 my-3 px-0 border border-light h-100 col-2 col-md-2">
+                        <img class="profile-img-sm mx-auto rounded"
+                            src="https://via.placeholder.com/256/96b783/fff.png?text=1"
+                            style="max-width: 100%; width:6rem;height:6rem;" />
+
+                        <div class="card-footer bg-transparent mx-0 px-0 text-center">منتج 1</div>
+                    </div>
+                    <div class=" card me-3 my-3 px-0 border border-light h-100 col-2 col-md-2">
+                        <img class="profile-img-sm mx-auto rounded"
+                            src="https://via.placeholder.com/256/96b783/fff.png?text=1"
+                            style="max-width: 100%; width:6rem;height:6rem;" />
+
+                        <div class="card-footer bg-transparent mx-0 px-0 text-center">منتج 1</div>
+                    </div>
+
+                    <div class=" card me-3 my-3 px-0 border border-light h-100 col-2 col-md-2">
+                        <img class="profile-img-sm mx-auto rounded"
+                            src="https://via.placeholder.com/256/96b783/fff.png?text=1"
+                            style="max-width: 100%; width:6rem;height:6rem;" />
+
+                        <div class="card-footer bg-transparent mx-0 px-0 text-center">منتج 1</div>
+                    </div>
+
+                    <div class=" card me-3 my-3 px-0 border border-light h-100 col-2 col-md-2">
+                        <img class="profile-img-sm mx-auto rounded"
+                            src="https://via.placeholder.com/256/96b783/fff.png?text=1"
+                            style="max-width: 100%; width:6rem;height:6rem;" />
+
+                        <div class="card-footer bg-transparent mx-0 px-0 text-center">منتج 1</div>
+                    </div>
+
+                    <div class=" card me-3 my-3 px-0 border border-light h-100 col-2 col-md-2">
+                        <img class="profile-img-sm mx-auto rounded"
+                            src="https://via.placeholder.com/256/96b783/fff.png?text=1"
+                            style="max-width: 100%; width:6rem;height:6rem;" />
+
+                        <div class="card-footer bg-transparent mx-0 px-0 text-center">منتج 1</div>
+                    </div>
+
+                    <div class=" card me-3 my-3 px-0 border border-light h-100 col-2 col-md-2">
+                        <img class="profile-img-sm mx-auto rounded"
+                            src="https://via.placeholder.com/256/96b783/fff.png?text=1"
+                            style="max-width: 100%; width:6rem;height:6rem;" />
+
+                        <div class="card-footer bg-transparent mx-0 px-0 text-center">منتج 1</div>
+                    </div>
+
+                    <div class=" card me-3 my-3 px-0 border border-light h-100 col-2 col-md-2">
+                        <img class="profile-img-sm mx-auto rounded"
+                            src="https://via.placeholder.com/256/96b783/fff.png?text=1"
+                            style="max-width: 100%; width:6rem;height:6rem;" />
+
+                        <div class="card-footer bg-transparent mx-0 px-0 text-center">منتج 1</div>
+                    </div>
+
+                    <div class=" card me-3 my-3 px-0 border border-light h-100 col-2 col-md-2">
+                        <img class="profile-img-sm mx-auto rounded"
+                            src="https://via.placeholder.com/256/96b783/fff.png?text=1"
+                            style="max-width: 100%; width:6rem;height:6rem;" />
+
+                        <div class="card-footer bg-transparent mx-0 px-0 text-center">منتج 1</div>
+                    </div>
+
+                    <div class=" card me-3 my-3 px-0 border border-light h-100 col-2 col-md-2">
+                        <img class="profile-img-sm mx-auto rounded"
+                            src="https://via.placeholder.com/256/96b783/fff.png?text=1"
+                            style="max-width: 100%; width:6rem;height:6rem;" />
+
+                        <div class="card-footer bg-transparent mx-0 px-0 text-center">منتج 1</div>
+                    </div>
+
+                    <div class=" card me-3 my-3 px-0 border border-light h-100 col-2 col-md-2">
+                        <img class="profile-img-sm mx-auto rounded"
+                            src="https://via.placeholder.com/256/96b783/fff.png?text=1"
+                            style="max-width: 100%; width:6rem;height:6rem;" />
+
+                        <div class="card-footer bg-transparent mx-0 px-0 text-center">منتج 1</div>
+                    </div>
+
+                    <div class=" card me-3 my-3 px-0 border border-light h-100 col-2 col-md-2 ">
+                        <img class="profile-img-sm mx-auto rounded"
+                            src="https://via.placeholder.com/256/96b783/fff.png?text=1"
+                            style="max-width: 100%; width:6rem;height:6rem;" />
+
+                        <div class="card-footer bg-transparent mx-0 px-0 text-center">منتج 1</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-3  h-100 to-left  ">
+            <div class="row py-2">
+                <i class="my-auto col-2 bi "></i>
+                <div class="col-8 mt-1 text-center">
+                    <p class=" my-0 h4 text-success">شركة دار السعد</p>
+                    <small class="my-0 text-muted"> 07/22/2022 23:38</small>
+                </div>
+
+
+                <i class="my-auto col-2 bi bi-three-dots-vertical"></i>
+            </div>
+
+            <div class="row mb-3 col-12 py-1 mx-auto customer btn-success">
+                <span class="col-1 bi h5 my-2 bi-person"> </span>
+                <p class="my-2 h5 col-md-9  col-9">أضف عميلاً</p>
+                <i class="col-1 col-md-1  h5  my-2 bi bi-plus-circle"></i>
+            </div>
+
+            <div class="list-group ">
+                <a href="#collapseExample" class=" my-0 py-1 list-group-item list-group-item-action "
+                    data-bs-toggle="collapse" aria-current="true" data-bs-toggle="collapse" role="button"
+                    aria-expanded="false" aria-controls="collapseExample">
+
+                    <div class="d-flex my-1 justify-content-between">
+                        <p class=" my-0">
+                            <span class="fw-bold">2</span>
+                            <span class="mx-2">زيت العربي</span>
+
+                        </p>
+
+                        <p class="text-start my-0 ">100 ريال
+
+                        </p>
+
+                    </div>
+                    <small class=" text-muted">خصم 10%</small>
+                </a>
+                <div class="collapse" id="collapseExample">
+                    <div class="card card-body">
+                        Some placeholder content for the collapse component. This panel is hidden by default but
+                        revealed when the user activates the relevant trigger.
+                    </div>
+                </div>
+                <a href="#" class=" my-0 py-1 list-group-item  list-group-item-action " aria-current="true">
+
+                    <div class="d-flex my-1 w-100 justify-content-between">
+                        <p class="my-0">
+                            <span class="fw-bold">1</span>
+                            <span class="mx-2">عصير المراعي</span>
+                        </p>
+
+                        <p class="text-end my-0">11 ريال</p>
+                    </div>
+                </a>
+                <a href="#" class="my-0 py-1 list-group-item list-group-item-action " aria-current="true">
+
+                    <div class="d-flex  my-1 w-100 justify-content-between">
+                        <p class="my-0">
+                            <span class="fw-bold">3</span>
+                            <span class="mx-2">فطيرة لوزين</span>
+                        </p>
+
+                        <p class="text-end my-0">3 ريال</p>
+                    </div>
+                    <small class="text-muted">خصم 10%</small>
+                </a>
+
+            </div>
+
+
+            <div class="position-fixed bottom-0   mb-3" style="width: 24%;">
+
+                <a href="#" class="py-0 my-0 align-items-end no-border flex-end list-group-item list-group-item-action "
+                    aria-current="true">
+                    <div class="d-flex  w-100  justify-content-between">
+                        <p> الضريبة</p>
+                        <p class="text-start">15 ريال</p>
+                    </div>
+                </a>
+                <hr class="py-0 my-0">
+
+                <a href="#" class="py-0 my-0 align-items-end no-border flex-end list-group-item list-group-item-action "
+                    aria-current="true">
+                    <div class="d-flex  w-100  justify-content-between">
+                        <p> الاجمالي<small class="text-muted"> (3 منتجات) </small> </p>
+                        <p class="text-start">100 ريال</p>
+                    </div>
+                </a>
+
+                <div class="d-flex m-0 p-0  justify-content-between">
+                    <button class=" customer btn-success no-border bi-three-dots" data-bs-toggle="dropdown"
+                        aria-expanded="false"></button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">مسودة</a></li>
+                        <li><a class="dropdown-item" href="#">تعليق البيع</a></li>
+                        <li><a class="dropdown-item " href="#">إلغاء</a></li>
+                    </ul>
+
+
+
+                    <button data-bs-toggle="modal" type="button" data-bs-target="#exampleModal" class=" text-center no-border  p-1 customer btn-success justify-content-between"
+                        style="width: 88%;">
+                        <h5 class="text-center">الدفع</h5>
+                    </button>
+
+                    <!-- Modal -->
+
+
+                </div>
+
+            </div>
+        </div>
+        <div class="hidden modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header   ">
+                    <h5   id="exampleModalLabel">اختر طريقة الدفع</h5>
+
+                </div>
+                <div class="modal-body row d-flex ">
+                    <div class=" text-center py-3 my-3 mx-3 customer w-25 col-4">
+                        بيع سريع 
+                    </div>
+                    <div class="text-center py-3 my-3 mx-3 customer w-25 col-4">
+                        visa 
+                    </div>
+                    <div class="text-center py-3 my-3 mx-3 customer w-25 col-4">
+                        MasterCard 
+                    </div>
+                    <div class="text-center py-3 my-3 mx-3 customer w-25 col-4">
+                        مدى 
+                    </div>
+                    <div class="text-center py-3 my-3 mx-3 customer w-25 col-4">
+                        بيع آجل 
+                    </div>
+                    <div class="text-center py-3 my-3 mx-3 customer w-25 col-4">
+                        دفع متعدد
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
